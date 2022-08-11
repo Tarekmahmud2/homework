@@ -45,12 +45,8 @@ img{
     width: 100%;
     margin: 0%;
     padding-bottom: 150px;
-    margin-bottom: 200px;
 }
-.division-one p{
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
+
 .section-two{
     background-image: url("personal-website/biography-bg.png");
     background-position: right;
@@ -59,6 +55,22 @@ img{
     width: 100%;
     margin: 0%;
 }
+
+.section-three{
+    background-image: url("personal-website/latest-work-bg.png");
+    background-position: right;
+    height: 500px;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0%;
+    padding-bottom: 5%;
+}
+
+.division-one p{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .division-two p{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -77,5 +89,38 @@ img{
     margin-left: 3%;
     padding-left: 2%;
     float: left;
-    margin-top: 18%;
+    margin-top: 10%;
+}
+
+.latest-work{
+    width: 25%;
+    margin-left: 4.5%;
+    padding-left: 2%;
+    float: left;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.section-three h1{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 5%;
+}
+
+.section-footer{
+    background-image: url("personal-website/footer-bg.png");
+    height: 800px;
+    width: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin: 0%;
+}
+.division-footer{
+    text-align: center;
+    padding-top: 5%;
+}
+footer{
+    padding-top: 10%;
+    font-size: small;
 }
